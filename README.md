@@ -9,19 +9,18 @@ Proyek ini merupakan analisis data *end-to-end* menggunakan Olist Brazilian E-Co
 
 ## Struktur Proyek
 
-
-
+```text
+.
 ├── data/                                   # Folder untuk menyimpan file CSV mentah
-│   ├── customers\_dataset.csv
-│   ├── orders\_dataset.csv
-│   ├── order\_items\_dataset.csv
-│   ├── order\_payments\_dataset.csv
-│   ├── products\_dataset.csv
-│   └── product\_category\_name\_translation.csv
+│   ├── customers_dataset.csv
+│   ├── orders_dataset.csv
+│   ├── order_items_dataset.csv
+│   ├── order_payments_dataset.csv
+│   ├── products_dataset.csv
+│   └── product_category_name_translation.csv
 ├── dashboard/
 │   ├── dashboard.py                        # Script utama dashboard Streamlit
-│   └── main\_data.csv                       # Data bersih hasil ekspor dari notebook
-├── ecommerce\_analysis.ipynb                # Notebook analisis utama (Tahap 1-3)
+│   └── main_data.csv                       # Data bersih hasil ekspor dari notebook
+├── ecommerce_analysis.ipynb                # Notebook analisis utama (Tahap 1-3)
 ├── requirements.txt                        # Daftar library/dependencies proyek
 └── README.md
-
