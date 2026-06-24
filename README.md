@@ -8,7 +8,6 @@ This repository contains an end-to-end data analysis project utilizing the Olist
 
 ## Project Structure
 ```text
-.
 ├── data/                                   # Raw CSV source tables
 │   ├── customers_dataset.csv
 │   ├── orders_dataset.csv
